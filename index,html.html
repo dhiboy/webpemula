@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mengenal Dhika, Siapa Dhika?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button class="open-btn" onclick="openNav()">☰ Menu</button>
+
+<div id="sidebar" class="sidebar">
+    <button class="close-btn" onclick="closeNav()">×</button>
+    <a href="#" onclick="showSection('profil')">Profil</a>
+    <a href="#" onclick="showSection('riwayat-pendidikan')">Riwayat Pendidikan</a>
+    <a href="#" onclick="showSection('riwayat-organisasi')">Riwayat Organisasi</a>
+</div>
+
+<header>
+    <h1>Mengenal Dhika, Siapa Dhika?</h1>
+</header>
+
+<section id="profil" class="content-section">
+    <h2>Profil</h2>
+    <div class="content">
+        <img src="foto.jpg" alt="Foto Dhika Wahyu Permadi" class="foto-profil">
+        <div class="text">
+            <p><strong>Nama:</strong> Dhika Wahyu Permadi</p>
+            <p><strong>Tempat, Tanggal Lahir:</strong> Tenggarong, 9 Juli 2005</p>
+            <p><strong>Hobi:</strong> Main Game dan Menonton Anime</p>
+            <p>Saya adalah mahasiswa Teknik Informatika di Universitas Muhammadiyah Magelang yang memiliki minat di dunia teknologi dan teater.</p>
+        </div>
+    </div>
+</section>
+
+<section id="riwayat-pendidikan" class="content-section hidden">
+    <h2>Riwayat Pendidikan</h2>
+    <ul>
+        <li><strong>SD:</strong> SD Negeri Sawangan 1 (Lulus 2018)</li>
+        <li><strong>SMP:</strong> SMP Negeri Sawangan 1 (Lulus 2020)</li>
+        <li><strong>SMA:</strong> SMA Muhammadiyah Muntilan (Lulus 2023)</li>
+        <li><strong>Kuliah:</strong> Universitas Muhammadiyah Magelang, Prodi Teknik Informatika</li>
+    </ul>
+</section>
+
+<section id="riwayat-organisasi" class="content-section hidden">
+    <h2>Riwayat Organisasi</h2>
+    <ul>
+        <li>Badan Eksekutif Mahasiswa Fakultas Teknik</li>
+        <li>Himpunan Mahasiswa Informatika</li>
+        <li>Unit Kegiatan Mahasiswa Teater Fajar</li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2025 Dhika Wahyu Permadi</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
